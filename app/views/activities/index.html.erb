@@ -1,0 +1,24 @@
+
+<script>
+    function addtask(activity){
+         
+         new Ajax.Request('/activities/addonetocounter', {
+    		method: 'post',
+    		parameters: {activity: activity}
+  		});
+    }
+    alert("You have just spent 30 minutes on "+activity);
+</script>
+
+<h1> Activity List </h1>
+
+<% for activity in @activities %>
+	</br>
+	<div class="btn-group btn-group-vertical>">
+		<div class="btn btn-large" onclick="addtask('<%=activity.task %>')"><%=activity.task %></div>
+		<br/>
+
+
+	</div>
+
+<% end %>

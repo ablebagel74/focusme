@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focusme</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="navbar">
+	  <div class="navbar-inner">
+	    <a class="brand" href="/activities">Focus Me</a>
+	    <ul class="nav">
+	      <li class=""><%= link_to "Home", activities_path %><li>
+	      <li class=""><%= link_to "Add Activities", activities_results_path %><li>
+	      <li class=""><%= link_to "See Results", activities_results_path %><li>
+	    </ul>
+	  </div>
+	</div>
+
+
+	<div class="container">
+		<%= yield %>
+	</div>
+
+</body>
+</html>

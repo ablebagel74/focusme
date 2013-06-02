@@ -1,0 +1,14 @@
+<h1> Results </h1>
+
+<% for activity in @activities %>
+	</br>
+	
+	<div class="row">
+		<div class="span4">
+		<span class="label"><%= activity.task %></span> <span class="label lable-success"><%= activity.times %></span>
+		<br/>
+	</div>
+	</div>
+
+
+<% end %>

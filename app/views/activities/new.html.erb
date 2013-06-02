@@ -1,0 +1,22 @@
+<h1>Add a New Activity</h1>
+
+<%= form_for @activity do |f| %>
+
+	<p>
+		<%= f.label :task %>
+		<br/>
+		<%= f.text_field :task %>
+	</p>
+
+	<p>
+		<%= f.label :times %>
+		<br/>
+		<%= f.text_field :times %>
+	</p>
+
+	<p>
+		<%= link_to "Back", :back %>
+		<%= f.submit %>
+	</p>
+
+<%- end %>
