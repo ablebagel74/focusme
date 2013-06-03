@@ -43,11 +43,15 @@ class ActivitiesController < ApplicationController
 		#Get counter 
 		@activities = Activity.all
 
-		#Set all activities
-		for activity in @activities do 
-			activity.times = 0
+		if @activities !=nil then
 
-			activity.save
+			#Set all activities
+			for activity in @activities do 
+				activity.times = 0
+
+				activity.save
+
+			end
 
 		end	
 
@@ -66,7 +70,18 @@ class ActivitiesController < ApplicationController
 	def results
 		@activities = Activity.all
 
+		actcounts = []
+		actlabels = []
+			for activity in @activities
+  			actcounts << activity.times
+  			actlabels << activity.task
+		end
 
+		if @actcounts !=nil then
+
+			@Chart = Gchart.pie_3d(:labels => actlabels, :data => actcounts, :size => '400x200')
+		end
+		
 	end
 
 

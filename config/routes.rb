@@ -6,6 +6,7 @@ Focusme::Application.routes.draw do
    get 'activities/resetcounters'
    get 'activities/resetactivities'
    post 'activities/new'
+   post 'activities/manageactivities'
 
    resources :activities
 

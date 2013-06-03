@@ -1,14 +1,38 @@
 <h1> Results </h1>
 
-<% for activity in @activities %>
-	</br>
-	
-	<div class="row">
-		<div class="span4">
-		<span class="label"><%= activity.task %></span> <span class="label lable-success"><%= activity.times %></span>
-		<br/>
-	</div>
-	</div>
+<br>
 
+<div align=center>
 
+<% if (@Chart != nil) then %>
+	<%= image_tag(@Chart) %>
 <% end %>
+</div>
+
+<br>
+
+
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th> Activity </th>
+			<th> Count </th>
+		</tr>
+	</thead>
+	<tbody>
+		
+		<% for activity in @activities %>
+		
+		<tr>
+			<td><%= activity.task %></td>
+			<td><%= activity.times %></td>
+		</tr>
+		
+		<% end %>
+	
+
+	</tbody>
+</table>
+
+
+
