@@ -1,7 +1,12 @@
 Focusme::Application.routes.draw do
 
-   match 'activities/results' => 'activities#results'
-   match 'activities/addonetotimes' => 'activities#addonetotimes'
+   
+   get 'activities/results'
+   post 'activities/addonetocounter'
+   get 'activities/resetcounters'
+   get 'activities/resetactivities'
+   post 'activities/new'
+
    resources :activities
 
 

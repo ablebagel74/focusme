@@ -5,24 +5,24 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="navbar">
-	  <div class="navbar-inner">
-	    <a class="brand" href="/activities">Focus Me</a>
-	    <ul class="nav">
-	      <li class=""><%= link_to "Home", activities_path %><li>
-	      <li class=""><%= link_to "Add Activities", activities_results_path %><li>
-	      <li class=""><%= link_to "See Results", activities_results_path %><li>
-	    </ul>
-	  </div>
-	</div>
-
-
 	<div class="container">
 		<%= yield %>
+	
+	   	<p>
+	   	</br>
+	       <button class="btn btn-large"><%= link_to "Home", activities_path %></button>
+	       <button class="btn btn-large"><%= link_to "See Results", activities_results_path %></button>
+	       <button class="btn btn-large"><%= link_to "Add Activity", activities_new_path %></button>
+	       <button class="btn btn-large btn-warning"><%= link_to "Reset Counters", activities_resetcounters_path %></button>
+	       <button class="btn btn-large btn-danger"><%= link_to "Reset Activities", activities_resetactivities_path %></button>
+	    </p>
 	</div>
+
 
 </body>
 </html>

@@ -19,13 +19,47 @@ class ActivitiesController < ApplicationController
 		end
 	end
 
-	def addonetocounter
-	#add 1 to counter for activity count
+	def addonetocounter()
 
-	#read current value for activity
+		return unless request.xhr?
+	  	return unless request.post?
 
-	#add one to counter and update
+		#add 1 to counter for activity count
+		@activity = Activity.find_by_task(params[:activity])
 
+		#read current value for activity
+		oldtimes = @activity.times
+		#add one to counter and update
+		@activity.times = oldtimes +1
+
+		@activity.save
+
+		render :nothing => true
+
+	end
+
+	def resetcounters()
+
+		#Get counter 
+		@activities = Activity.all
+
+		#Set all activities
+		for activity in @activities do 
+			activity.times = 0
+
+			activity.save
+
+		end	
+
+		render :action => :index
+
+	end
+
+	def resetactivities()
+
+		Activity.delete_all
+
+		render :action => :index
 
 	end
 
