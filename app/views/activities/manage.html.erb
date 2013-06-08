@@ -1,22 +1,50 @@
-<h1>Manage Activity</h1>
+<h1>Manage Activities</h1>
+
+<h3>Create a new Activity</h3>
 
 <%= form_for @activity do |f| %>
 
 	<p>
-		<%= f.label :task %>
-		<br/>
+		<%= f.label "Activity Name:  " %>
 		<%= f.text_field :task %>
 	</p>
 
-	<p>
-		<%= f.label :times %>
-		<br/>
-		<%= f.text_field :times %>
-	</p>
 
 	<p>
-		<%= link_to "Back", :back %>
 		<%= f.submit %>
 	</p>
 
 <%- end %>
+
+<h3>Delete Activities</h3>
+
+<div>
+	<table class="table table-bordered">
+
+		<thead>
+			<tr>
+				<th>Activity</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			<% @activities.each do |activity| %>
+			  	<tr>
+			    <td><%= activity.task %></td>
+			    <td><%= link_to 'Delete', activity, method: :delete,
+			              data: { confirm: 'Are you sure?' } %></td>
+			  	</tr>
+			<% end %>
+
+		</tbody>
+
+
+	</table>
+</div>
+
+<div>
+<br>
+<button class="btn btn-default btn-inverse"><%= link_to "Delete all activities", activities_resetactivities_path %></button>
+
+</div>

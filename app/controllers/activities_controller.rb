@@ -8,14 +8,20 @@ class ActivitiesController < ApplicationController
 		@activity = Activity.new
 	end
 
+	def manage
+		@activity = Activity.new
+
+        @activities = Activity.all(:order => "created_at desc")
+  	end
+
 	def create
 
-		@activity = Activity.new(params[:activity])
+		@activity = Activity.new(:task => params[:activity], :times =>0)
 
 		if @activity.valid? and @activity.save
 			redirect_to activities_path
 		else
-			render :action => :new
+			render :action => :manage
 		end
 	end
 
@@ -77,12 +83,19 @@ class ActivitiesController < ApplicationController
   			actlabels << activity.task
 		end
 
-		
-
 		@Chart = Gchart.pie_3d(:labels => actlabels, :data => actcounts, :size => '400x200')
 
-
 	end
+	
+	def destroy
 
+		put :id
+		
+    	@activity = Activity.find(params[:id])
+    	@activity.delete
+
+    	render :action => :manage
+
+    end	
 
 end
