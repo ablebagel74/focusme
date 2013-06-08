@@ -1,7 +1,7 @@
 class ActivitiesController < ApplicationController
 
   	def index
-        @activities = Activity.all(:order => "created_at desc")
+        @activities = Activity.all(:order => "task")
   	end
 
 	def new
@@ -11,17 +11,27 @@ class ActivitiesController < ApplicationController
 	def manage
 		@activity = Activity.new
 
-        @activities = Activity.all(:order => "created_at desc")
+        @activities = Activity.all(:order => "task")
   	end
 
 	def create
 
-		@activity = Activity.new(:task => params[:activity], :times =>0)
+		puts params[:activity]
+
+		#@activity = Activity.new(params[:activity])
+		@activity = Activity.new(:task => params[:activity][:task], :times =>0 )
 
 		if @activity.valid? and @activity.save
-			redirect_to activities_path
+
+			redirect_to activities_manage_path, :flash => {:notice => "Activity created"}
+	
 		else
-			render :action => :manage
+			
+			@activity = Activity.new
+
+        	@activities = Activity.all(:order => "task")
+
+			redirect_to activities_manage_path, :flash => {:notice => "Activity could not be created"}
 		end
 	end
 
@@ -89,12 +99,19 @@ class ActivitiesController < ApplicationController
 	
 	def destroy
 
-		put :id
-		
+		puts params[:id]
+		puts "here"
+
     	@activity = Activity.find(params[:id])
+
+    	puts "here2"
     	@activity.delete
 
-    	render :action => :manage
+    	@activity = Activity.new
+
+        @activities = Activity.all(:order => "created_at desc")
+
+    	redirect_to activities_manage_path, :flash => {:notice => "Activity deleted"}
 
     end	
 
