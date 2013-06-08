@@ -93,7 +93,7 @@ class ActivitiesController < ApplicationController
   			actlabels << activity.task
 		end
 
-		@Chart = Gchart.pie_3d(:labels => actlabels, :data => actcounts, :size => '400x200')
+		@Chart = Gchart.pie_3d(:labels => actlabels, :data => actcounts, :size => '800x200')
 
 	end
 	
