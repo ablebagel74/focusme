@@ -99,12 +99,8 @@ class ActivitiesController < ApplicationController
 	
 	def destroy
 
-		puts params[:id]
-		puts "here"
-
     	@activity = Activity.find(params[:id])
 
-    	puts "here2"
     	@activity.delete
 
     	@activity = Activity.new
