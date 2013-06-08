@@ -84,7 +84,7 @@ class ActivitiesController < ApplicationController
 	end
 
 	def results
-		@activities = Activity.all
+		@activities = Activity.all(:order => "created_at desc")
 
 		actcounts = []
 		actlabels = []
