@@ -11,20 +11,30 @@
     
 </script>
 
-<h1> Activity List </h1>
+    <div id="appheader">
+       <p>Activity List</p>
+    </div>
 
-<% if (@activities != nil) then %>
+    <div id="userheader">
+      <p>craig rees</p>
 
-	<% for activity in @activities %>
-		</br>
-		<div >
-			<div class="btn btn-large btn-primary btn-block " onclick="addtask('<%=activity.task %>')"><%=activity.task %></div>
-		</div>
+    </div>
 
-	<% end %>
 
-<% else %>
+    <div id="appbody">
+        <% if (@activities != nil) then %>
 
-	<div> No activities , please create some </div>
+            <% for activity in @activities %>
 
-<% end %>
+                <div id="activities">
+                    <div id="activitybtn" onclick="addtask('<%=activity.task %>')"><%=activity.task %></div>
+                </div>
+
+            <% end %>
+
+        <% else %>
+
+            <div> No activities , please create some </div>
+
+        <% end %>
+    </div>

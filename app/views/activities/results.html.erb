@@ -1,38 +1,48 @@
-<h1> Results </h1>
 
-<br>
 
-<div align=center>
+<div id="appheader">
+   results
 
-<% if (@Chart != nil) then %>
-	<%= image_tag(@Chart) %>
-<% end %>
 </div>
 
-<br>
+<div id="userheader">
+  craig rees
+
+</div>
+
+<div id="appbody">
+    <div align=center>
+
+    <% if (@Chart != nil) then %>
+        <%= image_tag(@Chart) %>
+    <% end %>
+    </div>
+
+    <br>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th> Activity </th>
+                <th> Count </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <% for activity in @activities %>
+
+            <tr>
+                <td><%= activity.task %></td>
+                <td><%= activity.times %></td>
+            </tr>
+
+            <% end %>
 
 
-<table class="table table-bordered">
-	<thead>
-		<tr>
-			<th> Activity </th>
-			<th> Count </th>
-		</tr>
-	</thead>
-	<tbody>
-		
-		<% for activity in @activities %>
-		
-		<tr>
-			<td><%= activity.task %></td>
-			<td><%= activity.times %></td>
-		</tr>
-		
-		<% end %>
-	
+        </tbody>
+    </table>
 
-	</tbody>
-</table>
+</div>
 
 
 

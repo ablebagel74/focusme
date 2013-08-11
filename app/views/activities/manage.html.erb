@@ -1,52 +1,69 @@
-<h1>Manage Activities</h1>
 
-<h3>Create a new Activity</h3>
+<div id="appheader">
+  Manage Activities
 
-<p><%= flash[:notice] %> </p><br>
-
-<%= form_for @activity do |f| %>
-
-	<p>
-		<%= f.label "Activity Name:  " %>
-		<%= f.text_field :task %>
-	</p>
-
-
-	<p>
-		<%= f.submit %>
-	</p>
-
-<%- end %>
-
-<h3>Delete Activities</h3>
-
-<div>
-	<table class="table table-bordered">
-
-		<thead>
-			<tr>
-				<th>Activity</th>
-				<th>Action</th>
-			</tr>
-		</thead>
-		<tbody>
-
-			<% @activities.each do |activity| %>
-			  	<tr>
-			    <td><%= activity.task %></td>
-			    <td><%= link_to 'Delete', activity, method: :delete,
-			              data: { confirm: 'Are you sure?' } %></td>
-			  	</tr>
-			<% end %>
-
-		</tbody>
-
-
-	</table>
 </div>
 
-<div>
-<br>
-<button class="btn btn-default btn-inverse"><%= link_to "Delete all activities", activities_resetactivities_path %></button>
+<div id="userheader">
+  craig rees
 
+</div>
+
+<div id="appbody">
+    <h3>Create a new Activity</h3>
+
+    <p><%= flash[:notice] %> </p>
+
+    <%= form_for @activity do |f| %>
+
+        <p>
+            <%= f.label "Activity Name:  " %>
+            <%= f.text_field :task %>
+        </p>
+
+
+        <p>
+            <%= f.submit :class => "btn btn-success"%>
+        </p>
+
+    <%- end %>
+
+  <hr style="border-top: 2px dotted black"/>
+
+    <div class="horizontal_dotted_line"></div>
+
+    <h3>Delete Activities</h3>
+
+    <div>
+        <table class="table table-bordered">
+
+            <thead>
+                <tr>
+                    <th>Activity</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <% @activities.each do |activity| %>
+                    <tr>
+                    <td><%= activity.task %></td>
+                    <td><%= link_to 'Delete', activity, method: :delete,
+                              data: { confirm: 'Are you sure?' } %></td>
+                    </tr>
+                <% end %>
+
+            </tbody>
+
+
+        </table>
+    </div>
+
+    <div>
+
+    <button class="btn btn-danger"><%= link_to "Delete all activities", activities_resetactivities_path %></button>
+
+    </div>
+
+  <hr style="border-top: 2px dotted black"/>
 </div>
