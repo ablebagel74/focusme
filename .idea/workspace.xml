@@ -14,7 +14,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1375701534962" ignored="false" />
     <file path="/index.html" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1374406094286" ignored="false" />
-    <file path="/activities.css.scss" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1376219400175" ignored="false" />
+    <file path="/activities.css.scss" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1376293702439" ignored="false" />
     <file path="/index.html.erb" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1376211896254" ignored="false" />
     <file path="/application.html.erb" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1376210722738" ignored="false" />
     <file path="/a.dummy" changelist="2ae1b519-ba0b-4bf4-8041-a1fc6b6a2de7" time="1375967713385" ignored="false" />
@@ -58,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activities.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activities.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/activities.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="20" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
+            <state line="74" column="64" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.4569378">
               <folding />
             </state>
           </provider>
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="manage.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/activities/manage.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="78" selection-start="555" selection-end="555" vertical-scroll-proportion="0.2661098">
+            <state line="34" column="78" selection-start="555" selection-end="555" vertical-scroll-proportion="-9.291667">
               <folding>
                 <element signature="n#style#0;n#hr#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#1;n#div#2;n#!!top" expanded="true" />
@@ -111,14 +111,13 @@
         <option value="$PROJECT_DIR$/app/views/activities/results.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/activities/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/activities.css.scss" />
         <option value="$PROJECT_DIR$/app/views/activities/manage.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/activities.css.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="87" />
+    <option name="y" value="127" />
     <option name="width" value="1582" />
     <option name="height" value="987" />
   </component>
@@ -537,7 +536,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="87" width="1582" height="987" extended-state="0" />
+    <frame x="0" y="127" width="1582" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,20 +718,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/activities.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="20" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/activities/manage.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="78" selection-start="555" selection-end="555" vertical-scroll-proportion="0.2661098">
+        <state line="34" column="78" selection-start="555" selection-end="555" vertical-scroll-proportion="-9.291667">
           <folding>
             <element signature="n#style#0;n#hr#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#hr#1;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/activities.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="64" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.4569378">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -72571,3 +72571,916 @@ Served asset /activities.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-11 21:23:28 +1000
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /activities.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 16:09:06 +1000
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:35:53 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (51ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /activities.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /activities.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:35:54 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (23ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:22 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (16ms)  (pid 680)
+Compiled application.css  (0ms)  (pid 680)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /activities.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:38 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (44ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /activities.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:36:56 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (21ms)  (pid 680)
+Compiled application.css  (0ms)  (pid 680)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:17 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (23ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:37:35 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.1ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (21ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /activities.css - 200 OK (19ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:38:54 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (18ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:39:13 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (45ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:47:37 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (35ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:26 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:48:29 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:49:09 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:51:37 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.2ms)
+Compiled activities.css  (18ms)  (pid 680)
+Compiled application.css  (0ms)  (pid 680)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:37 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:37 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:37 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:38 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:38 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:38 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:38 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (34ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:51:56 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.1ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (40ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:52:20 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (22ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:54:55 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:55:35 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (19ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /activities.css - 200 OK (24ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:55:36 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:58:56 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (19ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:58:57 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.1ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (21ms)  (pid 680)
+Compiled application.css  (0ms)  (pid 680)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /activities.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 17:59:32 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 18:00:11 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (19ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 82ms (Views: 61.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:12 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Compiled activities.css  (16ms)  (pid 680)
+Compiled application.css  (1ms)  (pid 680)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /activities.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:41 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities/results" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Processing by ActivitiesController#results as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY created_at desc[0m
+  Rendered activities/results.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 18:00:58 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities/manage" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Processing by ActivitiesController#manage as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities" ORDER BY task
+  Rendered activities/manage.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:00 +1000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-08-12 18:01:03 +1000
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities" ORDER BY task[0m
+  Rendered activities/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:03 +1000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:03 +1000
+Served asset /activities.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-08-12 18:01:04 +1000
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:04 +1000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:04 +1000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activities.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:04 +1000
+Served asset /activities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 18:01:04 +1000
+Served asset /application.js - 304 Not Modified (0ms)
