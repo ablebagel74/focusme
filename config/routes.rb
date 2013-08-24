@@ -1,6 +1,11 @@
 Focusme::Application.routes.draw do
 
-   
+  root :to =>'activities#index'
+
+  devise_for :users,:controllers => { :registrations =>'registration'}
+  match 'activities/index' => 'activities#index'
+
+
    get 'activities/results'
    post 'activities/addonetocounter'
    get 'activities/resetcounters'

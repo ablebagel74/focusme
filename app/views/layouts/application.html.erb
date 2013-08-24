@@ -13,23 +13,74 @@
 
         <div id="appcontainer">
 
+          <% if user_signed_in? %>
+              <div id="appheader">
+                Focus Me
+              </div>
 
-          <%= yield %>
-
-
-	   	<nav id="mainnav">
-
-          <%= link_to "Home", activities_path, :class => "menu" %>
-          <%= link_to "See Results", activities_results_path, :class => "menu" %>
-          <%= link_to "Manage Activities", activities_manage_path, :class => "menu" %>
-          <%= link_to "Reset Counters", activities_resetcounters_path, :class => "menu" %>
-
-	    </nav>
+              <div id="userheader">
+                <p> <%= current_user.email %> : <%= current_user.id %> : <span><%= link_to "Sign Out", destroy_user_session_path, :method => :delete %></span></p>
 
 
-        <footer id="appfooter">
+
+              </div>
+
+
+              <% if flash[:notice] %>
+                <p class="notice"><%= notice %></p>
+              <% end %>
+
+              <% if flash[:alert] %>
+                <p class="alert"><%= alert %></p>
+              <% end %>
+
+
+
+
+              <%= yield %>
+
+
+            <nav id="mainnav">
+
+              <%= link_to "Home", activities_path, :class => "menu" %>
+              <%= link_to "See Results", activities_results_path, :class => "menu" %>
+              <%= link_to "Manage Activities", activities_manage_path, :class => "menu" %>
+              <%= link_to "Reset Counters", activities_resetcounters_path, :class => "menu" %>
+
+            </nav>
+
+
+
+
+          <% else %>
+              <div id="appheader">
+                Focus Me
+              </div>
+              <div id="userheader">
+                <p></p>
+              </div>
+
+              <% if flash[:notice] %>
+                  <p class="notice"><%= notice %></p>
+              <% end %>
+
+              <% if flash[:alert] %>
+                  <p class="alert"><%= alert %></p>
+              <% end %>
+
+              <div id="appbody">
+
+                  <%= yield %>
+
+              </div>
+
+
+          <% end %>
+
+          <footer id="appfooter">
             &copy; 2013 Plynth.
-        </footer>
+          </footer>
+
 
         </div>
 

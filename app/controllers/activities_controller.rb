@@ -2,6 +2,7 @@ class ActivitiesController < ApplicationController
 
   	def index
         @activities = Activity.all(:order => "task")
+        #@activities = Activity.where ("username = ?", 'me@craigrees.com')
   	end
 
 	def new
